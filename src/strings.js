@@ -1,25 +1,29 @@
 const sayHello = string => {
-  // your code here
+  let newWord = 'Hello,'
+  let newHello = newWord.concat( ' ',string , '!')
+      return newHello ;
+  //let newHello = string.replace(('world', 'Hello, world!');
+  //return newHello; (first try) (.join de denedim) 
 };
 
 const uppercase = string => {
-  // your code here
+  return string.toUpperCase();
 };
 
 const lowercase = string => {
-  // your code here
+  return string.toLowerCase();
 };
 
 const countCharacters = string => {
-  // your code here
+  return string.length;
 };
 
 const firstCharacter = string => {
-  // your code here
+  return string.charAt(string.length1);
 };
 
 const firstCharacters = (string, n) => {
-  // your code here
+  return string.substring(0, n);
 };
 
 module.exports = {
